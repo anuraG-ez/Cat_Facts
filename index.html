@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        background-color: antiquewhite;
+    }
+    .facts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+    margin-top: 3rem; /* Adjust margin as needed */
+}
+
+.facts-para {
+    margin: 2rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    background-color: bisque;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#sh-btn {
+    background-color: #3d3219;
+    border-radius: 100px;
+    box-shadow: rgba(187, 168, 44, 0.2) 0 -25px 18px -14px inset, rgba(148, 130, 38, 0.15) 0 1px 2px, rgba(187, 175, 44, 0.15) 0 2px 4px, rgba(187, 175, 44, 0.15) 0 4px 8px, rgba(187, 163, 44, 0.15) 0 8px 16px, rgba(187, 185, 44, 0.15) 0 16px 32px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 2em;
+
+}
+#sh-btn:hover {
+    box-shadow: rgba(187, 163, 44, 0.35) 0 -25px 18px -14px inset, rgba(187, 187, 44, 0.25) 0 1px 2px, rgba(187, 154, 44, 0.25) 0 2px 4px, rgba(187, 185, 44, 0.25) 0 4px 8px, rgba(187, 161, 44, 0.25) 0 8px 16px, rgba(187, 173, 44, 0.25) 0 16px 32px;
+
+}
+
+
+
+
+</style>
+<body>
+    <h1>Cat Facts</h1>
+
+    <div class="facts-container">
+        <p class="facts-para">Here you will get some facts related to cats... ^_^</p>
+        <button id="sh-btn">Get Facts</button>
+       
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
